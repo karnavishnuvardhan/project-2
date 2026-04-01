@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+
+<link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+
+    <nav>
+        <a href="index1.html">Home</a>
+        <a href="about1.html">About</a>
+        <a href="places1.html">Places</a>
+        <a href="contact1.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+
+    <div class="box" style="text-align:center; max-width:500px; margin:auto;">
+
+        <h2>Contact Form</h2>
+
+        <form onsubmit="return validateForm()">
+
+            <input type="text" id="name" placeholder="Enter Name"><br><br>
+
+            <input type="email" id="email" placeholder="Enter Email"><br><br>
+
+            <textarea id="message" placeholder="Enter Message"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="error"></p>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Tourism Website</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
